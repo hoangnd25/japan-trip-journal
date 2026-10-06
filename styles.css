@@ -73,7 +73,7 @@ img { display: block; width: 100%; object-fit: cover; }
 .route-why { max-width: 70ch; margin: 20px auto 0; }
 .route-flourish { position: absolute; right: 15px; top: 40px; color: var(--accent); opacity: .4; }
 .route-flourish .line-icon { width: 75px; height: 75px; stroke-width: 1; }
-.destination-strip { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 4px; }
+.destination-strip { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 4px; }
 .destination { position: relative; height: 360px; overflow: hidden; background: #252c31; color: white; }
 .destination img { height: 100%; }
 .destination:after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.32), transparent 35%, rgba(0,0,0,.15) 55%, rgba(0,0,0,.84)); }
@@ -243,6 +243,8 @@ img { display: block; width: 100%; object-fit: cover; }
   .route-flourish .line-icon { width: 43px; height: 43px; }
   .destination-strip { width: 100%; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 3px; }
   .destination { height: 230px; }
+  .destination-strip > .destination:first-child { grid-column: 1 / -1; height: auto; aspect-ratio: 3 / 2; }
+  .destination-strip > .destination:first-child img { position: absolute; inset: 0; }
   .destination figcaption { left: 15px; right: 12px; bottom: 15px; }
   .destination figcaption strong { font-size: 28px; }
   .destination figcaption span { margin-top: 6px; line-height: 1.4; }
