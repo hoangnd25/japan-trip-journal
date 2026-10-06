@@ -10,7 +10,7 @@ Live page: https://hoangnd25.github.io/japan-trip-journal/
 - Each route groups its photos, 7-day overnight plan, 9/10-day variations and travel caveat.
 - Winter photographs for Takayama and Hokkaido; season-compatible evening views for the cities.
 - Static reading: no JavaScript, sharing, animation or selection controls. Links navigate to routes.
-- Mobile body text is 16px, photo titles 14px and supporting captions 13px.
+- Mobile body text is 16px and supporting photo captions are 14px. Each route has a large lead photograph and two supporting views.
 - Accessible landmarks, focus indicators and a printable trip briefing.
 
 ## Edit and preview
@@ -31,7 +31,9 @@ The period is mid-to-late February; the year and exact dates are not yet specifi
 Arrival and departure days count toward trip length.
 Flight, train and bus timings should be checked before booking.
 
-The winter Takayama hero and most destination photographs are displayed from JNTO.
+The winter Mount Fuji hero and most destination photographs are displayed from JNTO.
+The Fuji photograph is sourced from https://www.japan.travel/en/sports/snow/snow-travel/lake-kawaguchi/.
+It provides trip inspiration; Fuji is not a scheduled stop in the proposed routes.
 Sapporo winter imagery is from https://visit.sapporo.travel/seasons/winter/.
 The Kyoto evening photo is by Sorasak / Unsplash:
 https://unsplash.com/photos/_UIN-pFfJ7c.
