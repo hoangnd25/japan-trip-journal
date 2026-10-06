@@ -66,22 +66,6 @@ img { display: block; width: 100%; object-fit: cover; }
 .index-option > .photo-sapporo, .destination > .photo-sapporo { object-position: 47% 40%; }
 .index-option > .photo-fukuoka, .destination > .photo-fukuoka { object-position: 60% 50%; }
 
-.kids-days { margin-top: 32px; padding-block: 32px; border-block: 1px solid var(--line); }
-.park-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
-.park-options h3 { font-size: 27px; }
-.park-options h3 a { text-decoration-color: var(--red); }
-.park-fit { color: var(--red); margin-block: 12px; font-weight: 500; }
-.park-planning { margin-top: 16px; }
-.park-planning strong { display: block; }
-.park-checks { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); }
-@media (max-width: 900px) {
-  .park-options { grid-template-columns: 1fr; gap: 24px; }
-  .park-options article + article { padding-top: 24px; border-top: 1px solid var(--line); }
-  .park-options h3 { font-size: 26px; }
-  .park-fit { margin-block: 9px 12px; }
-  .park-planning strong { display: inline; }
-}
-
 .route { position: relative; padding-top: 66px; }
 .route-heading { position: relative; text-align: center; padding-bottom: 30px; background: url('assets/waves.svg') left bottom/290px 190px no-repeat; }
 .option-title { display: inline-flex; align-items: baseline; gap: 7px; font: 48px/1 var(--serif); letter-spacing: -.04em; position: relative; isolation: isolate; }
