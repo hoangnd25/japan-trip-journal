@@ -10,9 +10,9 @@ The alternatives are Alps & classic cities, Hokkaido & Tokyo, and Fukuoka to Tok
 
 This static HTML/CSS page has no build step, scripts, motion, sharing controls or buttons. Explicit links navigate within the page or open source material. Destination, activity and food grids use two columns on phones and four on wider screens. Main reading text and descriptive captions are 16px; small header and credit text are smaller.
 
-## Route map
+## Route maps
 
-The geographic map compares the three base routes on the same scale. Its simplified coastline uses Japan's four main islands from [Natural Earth 1:50m](https://www.naturalearthdata.com/), plotted with an equirectangular projection and approximate `cos(38°)` horizontal scaling. Lines connect stops schematically; they are not railway tracks or evidence of direct services. Otaru is a day trip from Sapporo; Kyoto is a day trip from Osaka on the Fukuoka route. Longer-trip additions are omitted. The map and its text legend stack on phones.
+Each itinerary includes its own compact map with only that route's stops. Regional extents vary, so the three maps should not be read as equal-scale distance comparisons. Its simplified coastline uses Japan's four main islands from [Natural Earth 1:50m](https://www.naturalearthdata.com/), plotted with an equirectangular projection and approximate `cos(38°)` horizontal scaling. Lines connect stops schematically; they are not railway tracks or evidence of direct services. Otaru is a day trip from Sapporo; Kyoto is a day trip from Osaka on the Fukuoka route. Longer-trip additions are omitted. Maps sit beside the itinerary on desktop and above it on phones. Phone map widths are capped at 250px (220px for Hokkaido), with labels above 16px.
 
 ## Edit and preview
 
@@ -28,9 +28,11 @@ GitHub Pages publishes from the root of `main`.
 
 ## Imagery and planning context
 
-Real destination photographs are externally hosted by [JNTO](https://www.japan.travel/), [Visit Sapporo](https://visit.sapporo.travel/seasons/winter/) and [Sorasak / Unsplash](https://unsplash.com/photos/_UIN-pFfJ7c). The snowy Fuji cover comes from [JNTO's Lake Kawaguchi page](https://www.japan.travel/en/sports/snow/snow-travel/lake-kawaguchi/); Fuji is visual inspiration, not a scheduled stop. External photographs and Google Fonts require internet access.
+Real destination photographs are externally hosted by [JNTO](https://www.japan.travel/), [Visit Sapporo](https://visit.sapporo.travel/seasons/winter/) and [Sorasak / Unsplash](https://unsplash.com/photos/_UIN-pFfJ7c). The wide snowy Fuji cover comes from [JNTO's Lake Kawaguchi page](https://www.japan.travel/en/sports/snow/snow-travel/lake-kawaguchi/); Fuji is visual inspiration, not a scheduled stop. The phone cover uses a closer winter Fuji portrait by [shorts S / Pexels](https://www.pexels.com/photo/breathtaking-view-of-mount-fuji-in-winter-30978351/), chosen after public social/creator-source research. External photographs and Google Fonts require internet access.
 
 Activity photography also includes [Hida Takayama's sarubobo activity](https://www.hida.jp/english/recreationandleisure/traditionalandhistory/4000063.html), [JNTO's Shiroi Koibito Park](https://www.japan.travel/en/spot/1917/), [Visit Fukuoka's Dazaifu plum blossoms](https://www.crossroadfukuoka.jp/en/articles/ume) and [Marine World's aquarium](https://marine-world.jp/for-foreigners/). These are real photographs, distinct from the supplied food illustrations. Plum blossom and winter-event images do not establish timing for the eventual trip.
+
+The local `assets/fukuoka-winter-yatai.jpg` replaces a summer scene. [Official photo 2385](https://www.crossroadfukuoka.jp/en/photo/2385) is explicitly categorized Winter, allows tourism website use and cropping, requires the published credit “Photo Provided by Fukuoka Prefecture Tourism Association”, and forbids hotlinking. The licensed download is therefore hosted locally. Sapporo destination and activity photos now show tubing rather than skiing. Tokyo uses the wider original station photograph.
 
 Food illustrations are CSS crops of the supplied AI poster PNGs; the plum decoration uses an SVG viewport crop of the same supplied artwork. Full originals remain in `assets/inspiration/`. These are credited as illustrations, not destination photographs or evidence of actual conditions.
 

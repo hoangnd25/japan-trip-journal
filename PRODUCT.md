@@ -9,7 +9,7 @@ A family planning page to read together, primarily on a phone, and compare three
 - Present Alps & classic cities, Hokkaido & Tokyo, and Fukuoka to Tokyo with equal prominence. Option numbers are identifiers, never a ranking, recommendation or first pick.
 - Explain each route's appeal, attractions, activities for kids and food before its day or night allocations.
 - Use plain family language and four photo-led activity or attraction ideas per route, with the same visual care as food. Treat these as choices, not a packed checklist.
-- Give the family a geographic comparison of the three base routes. Connections are schematic, not exact rail paths or service promises. Identify Otaru as a Sapporo day trip and Kyoto as an Osaka day trip on the Fukuoka route; keep longer-trip additions separate.
+- Give each route its own compact geographic map, subordinate to the trip content. Use regional extents where useful; never combine competing routes on one map. Connections are schematic, not exact rail paths or service promises. Identify Otaru as a Sapporo day trip and Kyoto as an Osaka day trip on the Fukuoka route; keep longer-trip additions separate.
 - Distinguish familiar cities from new experiences. Do not infer that every other destination is new.
 - Keep the seven-day plan and nine- and ten-day variations understandable. Include arrival and departure days and allocate one fewer night than days.
 - Explain practical trade-offs: hotel changes, travel time, snow emphasis and weather flexibility.
@@ -23,4 +23,4 @@ The user selected the supplied Japanese travel posters as the visual reference: 
 
 ## Image truth
 
-Real destination and activity photographs come from JNTO, Visit Sapporo, Hida Takayama, Visit Fukuoka, Marine World and Unsplash. Supplied AI poster PNGs provide food illustrations and plum artwork; retain full originals in `assets/inspiration/` and credit crops as illustrations. Neither reference artwork nor seasonal photographs establish actual conditions on eventual travel dates. Fuji is cover inspiration rather than an itinerary stop. The map uses simplified Natural Earth geography for Japan's four main islands, with equal geographic scale across routes.
+Real destination and activity photographs come from JNTO, Visit Sapporo, Hida Takayama, Visit Fukuoka, Marine World and Unsplash. Supplied AI poster PNGs provide food illustrations and plum artwork; retain full originals in `assets/inspiration/` and credit crops as illustrations. Neither reference artwork nor seasonal photographs establish actual conditions on eventual travel dates. Fuji is cover inspiration rather than an itinerary stop. Maps use simplified Natural Earth geography with separate regional extents. Keep them small on phones; they are visual aids, not the main content.

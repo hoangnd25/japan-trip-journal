@@ -74,11 +74,11 @@ Red anchors the cover, brand dot and closing seal. Rose identifies the Alps, blu
 
 ## Typography
 
-Playfair Display carries titles, destination names and food names; DM Sans carries paragraphs, navigation and practical detail. The cover title reduces to 80px below 600px and 74px below 360px. Route headings reduce to 35px and then 32px. Main copy and descriptive captions remain 16px; small header and attribution text uses 13–14px.
+Playfair Display carries titles, destination names and food names; DM Sans carries paragraphs, navigation and practical detail. The cover title scales between 74px and 92px on phones, with a 25px subtitle. Route headings reduce to 35px and then 32px. Main copy and descriptive captions remain 16px; small header and attribution text uses 13–14px.
 
 ## Layout
 
-The reading width is capped at 1160px, with 40px desktop side clearance, 24px below 900px, 18px below 600px and 16px below 360px. The cover photo can extend to 1320px. Destination, activity and food grids show four columns on desktop and two on phones. The route map and legend sit side by side with a 60px gap, stacking below 600px with a 24px gap. Itinerary columns also stack below 600px. Destination photos keep intentional crops and overlaid place captions; activity photos use a 4:3 crop above their descriptions.
+The reading width is capped at 1160px, with 40px desktop side clearance, 24px below 900px, 18px below 600px and 16px below 360px. The cover photo can extend to 1440px; the compact paper masthead overlaps it through a restrained fade. Phones use a closer Fuji portrait; desktop retains the wider snowy shoreline. Destination, activity and food grids show four columns on desktop and two on phones. Each route has its own small map beside the itinerary with a 36px gap. Below 600px, maps precede the itinerary and cap at 250px wide (Hokkaido at 220px). Itinerary columns also stack below 600px. Destination photos keep intentional crops and overlaid place captions; activity photos use a 4:3 crop above their descriptions.
 
 **The Reading Order Rule.** Route appeal, attractions, activities for kids and food precede overnight allocations.
 
@@ -97,7 +97,7 @@ Circular suns, option numerals and a closing seal form the poster motif. Shortli
 - **Destination panels:** real photography, serif names, descriptive captions and decorative vertical Japanese labels. Gradients keep white captions readable.
 - **Food panels:** illustrated foods with serif names and short captions, in two columns on phones. Alt text identifies the illustration medium.
 - **Activity panels:** the same warm background, fine border and rounded panel as food. Four photo cards per route use 7px image corners, 23px serif titles (21px on phones) and 16px descriptions. Linked titles remain visibly underlined. These are photographed attractions and activities, not AI food illustrations.
-- **Geographic route map:** a pale neutral field, muted land shapes and rose, blue and olive connections repeat the route colors without ranking them. A 360 × 400 SVG scales responsively; labels have a pale stroke to keep them legible. The text legend and caption explain day trips, schematic connections and omitted extensions. Preserve the geographically grounded coastline and equal scale rather than reshaping Japan to fit a route.
+- **Geographic route maps:** one compact map per itinerary, with only its colored route. Regional viewports crop genuine Natural Earth geometry; extents differ. Pale land and leader labels remain readable at phone size. Hollow markers and dashed connectors identify Otaru or Kyoto day trips. Maps are supporting visual aids, never a large combined comparison.
 - **Overnight plans:** dotted route markers and plain night counts alongside longer-trip variations. No selection state.
 
 ## Do's and Don'ts
