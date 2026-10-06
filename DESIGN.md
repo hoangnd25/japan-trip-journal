@@ -92,7 +92,7 @@ Paper tones, photography and fine rules provide most depth. Shortlist cards use 
 
 ## Shapes
 
-Circular suns, option numerals and a closing seal form the poster motif. Shortlist and food panels have gently rounded corners; destination strips remain rectangular. Fine borders organize practical content. Food artwork is clipped from full supplied poster files; preserve crop coordinates when changing presentation.
+Circular suns and option numerals form the poster motif. Shortlist and food panels have gently rounded corners; destination strips remain rectangular. Fine borders organize practical content. Food artwork is clipped from full supplied poster files; preserve crop coordinates when changing presentation.
 
 ## Components
 

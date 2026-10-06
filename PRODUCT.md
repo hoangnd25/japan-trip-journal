@@ -19,6 +19,8 @@ A family planning page to read together, primarily on a phone, and compare three
 
 This is a calm reading page. Use explicit navigation links for routes and official sources. Do not add scripts, motion, sharing controls, buttons, route-selection state or booking flows.
 
+Keep captions and remarks only when they add useful destination, food or planning information. Omit generic mood captions, obvious descriptions of the cover, repeated instructions and closing summaries. Preserve descriptive image alt text, meaningful day-trip labels, map explanations and required credits.
+
 The user selected the supplied Japanese travel posters as the visual reference: cream paper, a red sun, muted rose/blue/olive accents, snowy Fuji, real photo panels, food illustrations, subtle waves and plum artwork. Preserve readable phone layouts and 16px main reading text.
 
 ## Image truth

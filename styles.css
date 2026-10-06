@@ -46,7 +46,6 @@ img { display: block; width: 100%; object-fit: cover; }
 .fuji-view picture { display: block; width: 100%; height: 100%; }
 .fuji-view:before { content: ''; position: absolute; z-index: 1; inset: 0 0 auto; height: 46px; background: linear-gradient(var(--paper), transparent); }
 .fuji-view:after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 60%, rgba(248,244,236,.8) 92%, var(--paper)); }
-.fuji-view p { position: absolute; z-index: 1; inset: auto 18px 16px; text-align: center; font: 16px/1.5 var(--sans); color: #1f3041; }
 
 .shortlist { padding-block: 46px 28px; }
 .section-heading { display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; align-items: center; margin-bottom: 27px; }
@@ -120,8 +119,8 @@ img { display: block; width: 100%; object-fit: cover; }
 .highlights-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .highlights-grid > figure > img { max-height: 250px; }
 .destination-guides { margin-top: 30px; }
-.destination-guides > h3 { color: var(--accent); }
-.guides-intro { margin: 10px 0 22px; max-width: 70ch; color: var(--muted); }
+.destination-guides > h3 { color: var(--accent); margin-bottom: 20px; }
+
 .destination-guide { border-top: 1px solid var(--line); }
 .destination-guide:last-child { border-bottom: 1px solid var(--line); }
 .destination-guide summary { display: flex; justify-content: space-between; align-items: center; gap: 20px; min-height: 64px; padding: 18px 0; cursor: pointer; list-style: none; }
@@ -167,11 +166,6 @@ img { display: block; width: 100%; object-fit: cover; }
 .expectations-details dt { font: 23px/1.3 var(--serif); }
 .expectations-details dd { margin: 7px 0 0; color: var(--muted); max-width: 72ch; }
 
-.closing { display: flex; align-items: center; gap: 28px; padding-block: 55px 38px; }
-.closing-seal { display: grid; place-items: center; width: 82px; height: 82px; flex: 0 0 auto; border-radius: 50%; background: var(--red); color: white; }
-.closing-seal .line-icon { width: 48px; height: 48px; }
-.closing h2 { font-size: 34px; }
-.closing p { margin-top: 14px; max-width: 80ch; }
 .booking { padding-block: 28px; border-top: 1px solid var(--line); }
 .booking h2 { font-size: 26px; margin-bottom: 13px; }
 .booking p { max-width: 86ch; color: var(--muted); margin-top: 12px; }
@@ -227,7 +221,6 @@ img { display: block; width: 100%; object-fit: cover; }
   .trip-facts span { margin-inline: 4px; }
   .fuji-view { height: 300px; }
   .fuji-view img { object-position: center 62%; }
-  .fuji-view p { bottom: 12px; font-size: 16px; }
   .shortlist { padding-block: 28px 8px; }
   .section-heading { display: block; margin-bottom: 22px; }
   .section-heading h2 { font-size: 32px; max-width: 15ch; }
@@ -277,11 +270,6 @@ img { display: block; width: 100%; object-fit: cover; }
   .expectations-heading h3 { font-size: 25px; }
   .expectations-heading p { margin-top: 6px; }
   .expectations-details dt { font-size: 22px; }
-  .closing { align-items: start; gap: 15px; padding-block: 36px 27px; }
-  .closing-seal { width: 45px; height: 45px; }
-  .closing-seal .line-icon { width: 29px; height: 29px; }
-  .closing h2 { font-size: 29px; }
-  .closing p { margin-left: -60px; margin-top: 20px; }
   .booking { padding-block: 24px; }
   .booking h2 { font-size: 25px; }
 }
