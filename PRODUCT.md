@@ -12,7 +12,7 @@ A family planning page to read together, primarily on a phone, and compare three
 - Give each route its own compact geographic map, subordinate to the trip content. Use regional extents where useful; never combine competing routes on one map. Connections are schematic, not exact rail paths or service promises. Identify Otaru as a Sapporo day trip and Kyoto as an Osaka day trip on the Fukuoka route; keep longer-trip additions separate.
 - Distinguish familiar cities from new experiences. Do not infer that every other destination is new.
 - Keep the seven-day plan and nine- and ten-day variations understandable. Include arrival and departure days and allocate one fewer night than days.
-- Explain practical trade-offs with visible pros and cons near the start of each route: activities for kids, new versus familiar experiences, food, hotel changes, travel time and weather flexibility. Scope hotel counts and pace comparisons to the seven-day plan; fewer hotel changes must not imply shorter journeys.
+- Explain practical trade-offs in a visible “What to expect” section near the start of each route. Combine appeal and constraints under The experience, For kids, and Pace & planning instead of positive/negative lists. Cover new versus familiar experiences, food, hotel changes, travel time and weather flexibility. Scope hotel counts and pace comparisons to the seven-day plan; fewer hotel changes must not imply shorter journeys.
 - Leave the travel year unspecified until confirmed. Activities, connections, weather and seasonal events are planning possibilities, not booking guarantees.
 
 ## Experience and visual authority

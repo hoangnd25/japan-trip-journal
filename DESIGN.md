@@ -104,7 +104,7 @@ Circular suns, option numerals and a closing seal form the poster motif. Shortli
 - **Activity panels:** the same warm background, fine border and rounded panel as food. Four photo cards per route use 7px image corners, 23px serif titles (21px on phones) and 16px descriptions. Linked titles remain visibly underlined. These are photographed attractions and activities, not AI food illustrations.
 - **Geographic route maps:** one compact map per itinerary, with only its colored route. Regional viewports crop genuine Natural Earth geometry; extents differ. Pale land and leader labels remain readable at phone size. Hollow markers and dashed connectors identify Otaru or Kyoto day trips. Maps are supporting visual aids, never a large combined comparison.
 - **Overnight plans:** dotted route markers and plain night counts alongside longer-trip variations. No selection state.
-- **Pros and cons:** a visible editorial section before the activity panels, with three specific advantages and three trade-offs per route. Two columns on wider screens stack below 600px. Fine rules, serif headings and 16px descriptions preserve the reading style without scores or route rankings.
+- **What to expect:** a visible editorial section before the activity panels. A narrow heading column sits alongside three short descriptions: The experience, For kids, and Pace & planning. Benefits and constraints share the same narrative rather than opposing lists. Below 600px the heading stacks above the descriptions. Fine rules, serif topic labels and 16px copy support scanning without scores or route rankings.
 
 ## Do's and Don'ts
 

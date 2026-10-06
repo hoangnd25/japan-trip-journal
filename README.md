@@ -12,7 +12,7 @@ This static HTML/CSS page has no build step, scripts, motion, sharing controls o
 
 ## Route trade-offs
 
-Each route also has visible pros and cons before the activity highlights, covering experiences, activities for kids, food and practical travel effort. Comparisons use the seven-day itinerary: four overnight bases and three hotel changes for the Alps route, versus three bases and two hotel changes for the other routes. Hokkaido's consecutive long travel days are called out separately. This section was checked at 320, 390, 768 and 1440px for readable text and overflow.
+Each route has a visible “What to expect” section before the activity highlights. Three short descriptions—The experience, For kids, and Pace & planning—combine appeal and practical constraints. Comparisons use the seven-day itinerary: four overnight bases and three hotel changes for the Alps route, versus three bases and two hotel changes for the other routes. Hokkaido's consecutive long travel days remain explicit. This section was checked at 320, 390, 768 and 1440px for readable 16px text and no overflow.
 
 ## Route maps
 
