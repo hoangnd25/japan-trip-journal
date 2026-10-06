@@ -72,6 +72,10 @@ Red anchors the cover, brand dot and closing seal. Rose identifies the Alps, blu
 
 **The Equal Weight Rule.** Route colors distinguish alternatives without implying a winner.
 
+## Editorial voice
+
+Use a restrained travel-brochure voice: destination-led, informative and inviting. Prefer “Activities & attractions”, “Food highlights” and “Suggested itinerary” to first-person headings. Avoid “we”, “our”, conversational family narration and exaggerated sales language. Present all routes equally while retaining first-visit and familiar-city relevance.
+
 ## Typography
 
 Playfair Display carries titles, destination names and food names; DM Sans carries paragraphs, navigation and practical detail. The cover title scales between 74px and 92px on phones, with a 25px subtitle. Route headings reduce to 35px and then 32px. Main copy and descriptive captions remain 16px; small header and attribution text uses 13–14px.
