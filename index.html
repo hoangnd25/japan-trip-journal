@@ -3,78 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f2e9">
-  <meta name="description" content="Three beautiful ways to explore Japan as a family. Compare 7, 9 and 10 day routes, winter adventures, food and a little everyday magic.">
-  <meta property="og:title" content="Japan, together — a family travel journal">
-  <meta property="og:description" content="Three routes. One unforgettable family trip. Find your way through Japan.">
+  <meta name="theme-color" content="#fcfaf7">
+  <meta name="description" content="Three routes for our mid-to-late February family trip to Japan. Compare places, overnight plans, winter experiences and travel trade-offs.">
+  <meta property="og:title" content="Japan, together — our February trip">
+  <meta property="og:description" content="The Alps, Hokkaido or a food trail through the cities. Three family trip options, all in one place.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=1600&q=85&fit=crop">
-  <title>Japan, together — Three routes, one adventure</title>
+  <meta property="og:image" content="https://res-1.cloudinary.com/jnto/image/upload/w_1600,h_900,c_fill,f_auto,q_auto/v1/media/filer_public/97/e8/97e8caf0-ce8f-486b-bd9d-90c76a501dc2/hida-takayama-kv_gkuby2">
+  <title>Japan, together — our February trip</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="poster.css">
-  <script src="app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#routes">Skip to trip options</a>
-  <header class="site-header">
-    <a class="brand" href="#"><span class="sun" aria-hidden="true"></span> japan, together<span class="brand-jp" lang="ja">日本</span></a>
-    <nav aria-label="Main navigation"><a href="#routes">The routes</a><a href="#planner">Your itinerary</a><a href="#compare">Compare</a></nav>
-    <button class="share-button" id="share" type="button">Share this trip <span aria-hidden="true">↗</span></button>
+  <a class="skip-link" href="#shortlist">Skip to the trip options</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top"><span class="sun" aria-hidden="true"></span> japan, together</a>
+    <span class="header-note">Our family trip</span>
   </header>
   <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <img class="hero-photo" src="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=2200&q=85" alt="Snow-capped Mount Fuji framed by pink spring blossoms; an inspirational view of Japan" fetchpriority="high">
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <p class="eyebrow light">OUR NEXT FAMILY ADVENTURE</p>
-        <h1 id="hero-title">JAPAN</h1>
-        <p class="hero-subtitle">THREE ROUTES. ENDLESS POSSIBILITIES.</p>
-        <div class="hero-icons"><span><b aria-hidden="true">山</b>NATURE</span><span><b aria-hidden="true">旅</b>DISCOVERY</span><span><b aria-hidden="true">食</b>GOOD FOOD</span><span><b aria-hidden="true">和</b>TOGETHER</span></div>
-        <a class="button cream" href="#routes">Explore the possibilities <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="hero-stamp" aria-hidden="true"><span lang="ja">日本の旅</span><small>LITTLE<br>ADVENTURES.<br>LASTING<br>MEMORIES.</small></div>
-      <div class="hero-bottom"><span>A different side of Japan,<br>a new chapter together.</span><span>7–10 DAYS · DATES TO BE DECIDED</span></div>
+    <section class="hero" aria-labelledby="page-title">
+      <img src="https://res-1.cloudinary.com/jnto/image/upload/w_1800,h_1100,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/97/e8/97e8caf0-ce8f-486b-bd9d-90c76a501dc2/hida-takayama-kv_gkuby2" alt="Snow falling over Takayama's traditional wooden streets on a winter evening" width="1800" height="1100" fetchpriority="high">
+      <div class="hero-copy"><h1 id="page-title">JAPAN</h1><p class="travel-period">Mid–late February</p><p class="hero-subtitle">Three routes for our next adventure.</p></div>
+      <p class="hero-caption">Takayama, in winter</p>
     </section>
-    <section class="intro wrap">
-      <p class="eyebrow">THE BRIEF</p>
-      <h2>Same Japan.<br><em>A whole new story.</em></h2>
-      <div class="intro-copy"><p>We’ve done the big sights. This time, let’s make room for slower mornings, something delicious around the corner, and a little magic for our six-year-old.</p><div class="brief-tags"><span>7–10 days</span><span>Family pace</span><span>New + familiar</span><span>Winter possibilities</span></div></div>
+
+    <section class="shortlist wrap" id="shortlist" aria-labelledby="shortlist-title">
+      <div class="brief"><h2 id="shortlist-title">Where shall we go?</h2><p>7–10 days, with our six-year-old. A new side of Japan, some familiar favourites, good food and time to enjoy it together.</p></div>
+      <nav class="route-jumps" aria-label="Compare and jump to a route">
+        <a href="#alps"><span class="jump-name">Alps & classic cities</span><span>Best mix of new and familiar · 4 hotel bases</span><span class="jump-arrow" aria-hidden="true">↓</span></a>
+        <a href="#hokkaido"><span class="jump-name">Hokkaido & Tokyo</span><span>Strongest snow option · 3 hotel bases</span><span class="jump-arrow" aria-hidden="true">↓</span></a>
+        <a href="#food-trail"><span class="jump-name">Fukuoka to Tokyo</span><span>Simplest rail corridor · 3 hotel bases</span><span class="jump-arrow" aria-hidden="true">↓</span></a>
+      </nav>
+      <p class="allocation-key">Hotel bases refer to the 7-day plans. Seven days means six nights, including arrival and departure days.</p>
     </section>
-    <section id="routes" class="routes-section wrap" aria-labelledby="routes-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / CHOOSE YOUR KIND OF JAPAN</p><h2 id="routes-title">Three ways to <em>fall in love.</em></h2></div><p class="section-aside">A mountain-town detour, a snowy escape,<br>or a delicious journey through the cities.</p></div>
-      <div class="route-grid">
-        <article class="route-card featured">
-          <div class="card-image"><img src="https://res-1.cloudinary.com/jnto/image/upload/w_1000,h_667,c_fill,f_auto,fl_lossy,q_auto/v1514366852/gifu/Gifu1352_1" alt="Traditional thatched houses in Shirakawa-go, an extension of the Takayama route" loading="lazy"><span class="card-number">01</span><span class="image-caption">THE JAPANESE ALPS</span><span class="recommendation">OUR FIRST PICK</span></div>
-          <div class="card-body"><p class="eyebrow">CULTURE · SMALL TOWNS · COMFORT FOOD</p><h3>The best of<br><em>both worlds.</em></h3><p class="route-cities">Tokyo → Takayama → Kyoto → Osaka</p><p class="card-description">A traditional mountain town brings a fresh chapter to cities we already love. Think morning markets, Hida beef and unhurried Kyoto wandering.</p><ul class="card-highlights"><li>A new place, with familiar favourites</li><li>Markets and a possible snowy moment</li><li>More room to explore at 9–10 days</li></ul><div class="tradeoff"><span>THE TRADE-OFF</span>A few more hotel changes and a long journey into the mountains.</div><button class="route-action" data-select-route="alps">Explore this route <span aria-hidden="true">↗</span></button></div>
-        </article>
-        <article class="route-card">
-          <div class="card-image"><img src="https://res-1.cloudinary.com/jnto/image/upload/w_1000,h_667,c_fill,f_auto,fl_lossy,q_auto/v1512444240/hokkaido/Hokkaido1363_2" alt="Sapporo cityscape, the starting point for a Hokkaido adventure" loading="lazy"><span class="card-number">02</span><span class="image-caption">HOKKAIDO & THE NORTH</span></div>
-          <div class="card-body"><p class="eyebrow">SNOW · SEAFOOD · LITTLE DISCOVERIES</p><h3>A little winter<br><em>wonderland.</em></h3><p class="route-cities">Sapporo → Otaru → Hakodate → Tokyo</p><p class="card-description">Ramen steam on a cold day. Music boxes in Otaru. A harbour city and snowy playtime. A northern adventure with plenty of small delights.</p><ul class="card-highlights"><li>Our strongest winter option</li><li>Otaru as a day trip, no repacking</li><li>Seafood, soup curry and sweet treats</li></ul><div class="tradeoff"><span>THE TRADE-OFF</span>Two major transfers can feel rushed in the seven-day version.</div><button class="route-action" data-select-route="north">Explore this route <span aria-hidden="true">↗</span></button></div>
-        </article>
-        <article class="route-card">
-          <div class="card-image"><img src="https://res-4.cloudinary.com/jnto/image/upload/w_1000,h_667,c_fill,f_auto,fl_lossy,q_auto/v1516703808/fukuoka/Fukuoka1614_6" alt="Fukuoka's lively yatai food stalls in the evening" loading="lazy"><span class="card-number">03</span><span class="image-caption">KYUSHU TO THE CAPITAL</span></div>
-          <div class="card-body"><p class="eyebrow">FOOD · CITY LIFE · SIMPLE CONNECTIONS</p><h3>Follow your<br><em>appetite.</em></h3><p class="route-cities">Fukuoka → Osaka / Kyoto → Tokyo</p><p class="card-description">Start somewhere new, then follow the rail corridor through old favourites. Ramen, neighbourhood wandering and flexible days together.</p><ul class="card-highlights"><li>A straightforward rail-based route</li><li>Kyoto as a day trip from Osaka</li><li>Add Hiroshima with a longer stay</li></ul><div class="tradeoff"><span>THE TRADE-OFF</span>Mostly cities, with less of that small-town contrast.</div><button class="route-action" data-select-route="food">Explore this route <span aria-hidden="true">↗</span></button></div>
-        </article>
-      </div>
-    </section>
-    <section class="planner-section" id="planner" aria-labelledby="planner-title">
-      <div class="wrap"><div class="section-heading"><div><p class="eyebrow">02 / MAKE IT OURS</p><h2 id="planner-title">A plan with room<br>for <em>the unexpected.</em></h2></div><div class="length-control"><span id="length-label">HOW LONG HAVE WE GOT?</span><div class="segmented" role="group" aria-labelledby="length-label"><button data-days="7" aria-pressed="true">7 days</button><button data-days="9" aria-pressed="false">9 days</button><button data-days="10" aria-pressed="false">10 days</button></div></div></div>
-        <div class="planner-layout"><div class="route-selector" role="group" aria-label="Choose itinerary"><button data-route="alps" aria-pressed="true"><span class="selector-number">01</span><span>The best of both worlds<small>Tokyo, the Alps & Kansai</small></span><span class="selector-arrow" aria-hidden="true">↗</span></button><button data-route="north" aria-pressed="false"><span class="selector-number">02</span><span>A little winter wonderland<small>Hokkaido & Tokyo</small></span><span class="selector-arrow" aria-hidden="true">↗</span></button><button data-route="food" aria-pressed="false"><span class="selector-number">03</span><span>Follow your appetite<small>Fukuoka, Kansai & Tokyo</small></span><span class="selector-arrow" aria-hidden="true">↗</span></button><p class="planner-footnote">A starting point, not a sightseeing checklist. Leave space for snack stops, playgrounds and a slower day.</p></div>
-          <div class="itinerary" id="itinerary" aria-live="polite" aria-atomic="true"></div>
+
+    <div class="routes wrap">
+      <section class="route alps" id="alps" aria-labelledby="alps-title">
+        <header class="route-header"><div><h2 id="alps-title">Alps & classic cities</h2><p class="city-sequence">Tokyo → Takayama → Kyoto → Osaka</p></div><span class="first-pick">Our first pick</span></header>
+        <p class="route-intro">The most varied trip: a traditional mountain town between cities we already enjoy. Takayama brings old streets, morning markets and Hida beef; Kyoto and Osaka can be relaxed revisits.</p>
+        <div class="photos">
+          <figure><img src="https://res-1.cloudinary.com/jnto/image/upload/w_800,h_600,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/97/e8/97e8caf0-ce8f-486b-bd9d-90c76a501dc2/hida-takayama-kv_gkuby2" alt="Takayama's old town streets in falling snow" width="800" height="600" loading="lazy"><figcaption><strong>Takayama</strong><span>Old town in winter</span></figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&h=600&q=85" alt="Yasaka Pagoda and a Kyoto street at dusk, with bare branches overhead" width="800" height="600" loading="lazy"><figcaption><strong>Kyoto</strong><span>Quiet streets & temples</span></figcaption></figure>
+          <figure><img src="https://res-2.cloudinary.com/jnto/image/upload/w_800,h_600,c_fill,f_auto,fl_lossy,q_auto/v1514378461/osaka/Osaka798_4" alt="Illuminated restaurant signs in Osaka's Dotonbori district" width="800" height="600" loading="lazy"><figcaption><strong>Osaka</strong><span>Food & evening lights</span></figcaption></figure>
         </div>
-      </div>
-    </section>
-    <section id="compare" class="compare-section wrap" aria-labelledby="compare-title"><div class="section-heading"><div><p class="eyebrow">03 / THE BIG PICTURE</p><h2 id="compare-title">What matters <em>most to us?</em></h2></div><p class="section-aside">There’s no wrong choice.<br>Just different kinds of wonderful.</p></div>
-      <div class="comparison-scroll" role="region" aria-label="Compare the three routes; scroll horizontally on smaller screens" tabindex="0"><table><caption class="sr-only">A qualitative comparison of our family trip options</caption><thead><tr><th scope="col">A little perspective</th><th scope="col"><span>01</span> The Alps & classics</th><th scope="col"><span>02</span> The snowy north</th><th scope="col"><span>03</span> The food trail</th></tr></thead><tbody><tr><th scope="row">The feeling</th><td>Varied & traditional</td><td>Wintry & playful</td><td>Easygoing & delicious</td></tr><tr><th scope="row">Something new</th><td>Takayama & the Alps</td><td>Hokkaido cities</td><td>Fukuoka & Kyushu</td></tr><tr><th scope="row">Winter bonus</th><td>Possible in the mountains</td><td>The strongest snow option</td><td>Not the main attraction</td></tr><tr><th scope="row">Hotel bases · 7 days</th><td>4 bases</td><td>3 bases</td><td>3 bases</td></tr><tr><th scope="row">Travel rhythm</th><td>More moving around</td><td>Two substantial transfers</td><td>Clear rail corridor</td></tr><tr><th scope="row">With extra days</th><td>Shirakawa-go & Kanazawa</td><td>A slower Hakodate stay</td><td>Hiroshima & Miyajima</td></tr></tbody></table></div>
-    </section>
-    <section class="recommendation-section wrap"><div class="red-seal" aria-hidden="true" lang="ja">日本<br>の旅</div><div><p class="eyebrow">OUR STARTING POINT</p><h2>Take the mountain detour.<br><em>Make a new memory.</em></h2><p>The Alps route is our first pick for its mix of new places and familiar favourites. Seven days makes a compact introduction; nine or ten gives the journey room to breathe.</p><a class="button red" href="#planner" id="recommendation-link">Start with route 01 <span aria-hidden="true">↗</span></a></div><div class="margin-note">A small town.<br>A warm bowl.<br>A big little adventure.<span aria-hidden="true">✳</span></div></section>
-    <section class="notes-section wrap"><p class="eyebrow">BEFORE WE BOOK</p><div class="notes-grid"><div><h3>Winter is a possibility.</h3><p>The shortlist suggests a winter trip. Dates are still open: snow and activities depend on the season and weather. Hokkaido is the strongest winter choice.</p></div><div><h3>Keep travel days light.</h3><p>These are suggested overnight allocations. Arrival and departure days are included. Confirm flights, rail and bus connections before booking; exact journey times and fares aren’t included.</p></div><div><h3>A little local reading.</h3><p>Official guides: <a href="https://www.japan.travel/en/au/guide/guide-takayama-shirakawa-go-kanazawa/" target="_blank" rel="noopener noreferrer">The Japanese Alps ↗</a>, <a href="https://www.sapporo.travel/en/spot/feature/winter/" target="_blank" rel="noopener noreferrer">Winter in Sapporo ↗</a>, <a href="https://www.japan.travel/en/spot/273/" target="_blank" rel="noopener noreferrer">Fukuoka’s yatai ↗</a>.</p></div></div></section>
+        <div class="route-details">
+          <div class="base-plan"><h3>7 days · 6 nights</h3><ol class="night-stops"><li><strong>Tokyo</strong><span>2 nights</span></li><li><strong>Takayama</strong><span>2 nights</span></li><li><strong>Kyoto</strong><span>1 night</span></li><li><strong>Osaka</strong><span>1 night</span></li></ol><p>Time for one or two favourite neighbourhoods in Tokyo, two slower nights in Takayama, then a short Kansai finish.</p></div>
+          <div class="longer-plan"><h3>With 9–10 days</h3><p>Add <strong>Shirakawa-go</strong> on the way to <strong>Kanazawa</strong>. Use Osaka as the final base, with Kyoto as a day trip.</p><dl class="allocations"><dt>9 days</dt><dd>Tokyo 2 · Takayama 2 · Kanazawa 2 · Osaka 2</dd><dt>10 days</dt><dd>Tokyo 2 · Takayama 2 · Kanazawa 2 · Osaka 3</dd></dl><p class="numbers-note">Numbers are nights in each place.</p></div>
+        </div>
+        <p class="travel-note"><strong>The trade-off:</strong> more hotel changes, plus a substantial journey from Tokyo to Takayama. Keep transfer days light; allow flexibility for mountain weather.</p>
+      </section>
+
+      <section class="route hokkaido" id="hokkaido" aria-labelledby="hokkaido-title">
+        <header class="route-header"><div><h2 id="hokkaido-title">Hokkaido & Tokyo</h2><p class="city-sequence">Sapporo → Hakodate → Tokyo</p></div></header>
+        <p class="route-intro">Choose this if snowy scenery is the big draw. Sapporo brings ramen, soup curry and winter play; Otaru adds canals and music boxes; Hakodate brings markets and harbour views. No ski itinerary needed.</p>
+        <p class="day-trip"><strong>Otaru is a day trip from Sapporo</strong> — no extra hotel change.</p>
+        <div class="photos">
+          <figure><img src="https://visit.sapporo.travel/wp2022/wp-content/uploads/2024/10/winter_mv-1600x516.png" alt="A snowy forest landscape around Sapporo, with winter sports visitors" width="800" height="600" loading="lazy"><figcaption><strong>Sapporo</strong><span>A proper winter escape</span></figcaption></figure>
+          <figure><img src="https://res-4.cloudinary.com/jnto/image/upload/w_800,h_600,c_fill,f_auto,fl_lossy,q_auto/v1515931095/hokkaido/Hokkaido1518_1" alt="Snow along Otaru Canal at night; photographed during its winter light event" width="800" height="600" loading="lazy"><figcaption><strong>Otaru</strong><span>Canal town in winter</span></figcaption></figure>
+          <figure><img src="https://res-1.cloudinary.com/jnto/image/upload/w_800,h_600,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/f1/51/f151b52a-0dd6-4525-8f97-e1692d0f3731/hakodate_night_p34vss" alt="Snow along Hakodate's sloping harbour street, with bare trees lit on a winter evening" width="800" height="600" loading="lazy"><figcaption><strong>Hakodate</strong><span>Winter harbour streets</span></figcaption></figure>
+        </div>
+        <div class="route-details">
+          <div class="base-plan"><h3>7 days · 6 nights</h3><ol class="night-stops"><li><strong>Sapporo</strong><span>3 nights</span></li><li><strong>Hakodate</strong><span>1 night</span></li><li><strong>Tokyo</strong><span>2 nights</span></li></ol><p>Stay in Sapporo for city exploring and the Otaru day trip, then a brief Hakodate stop before familiar favourites in Tokyo.</p></div>
+          <div class="longer-plan"><h3>With 9–10 days</h3><p>Give Hakodate a full day between transfers. A tenth day adds more breathing room in Sapporo.</p><dl class="allocations"><dt>9 days</dt><dd>Sapporo 3 · Hakodate 2 · Tokyo 3</dd><dt>10 days</dt><dd>Sapporo 4 · Hakodate 2 · Tokyo 3</dd></dl><p class="numbers-note">Numbers are nights in each place.</p></div>
+        </div>
+        <p class="travel-note"><strong>The trade-off:</strong> the 7-day version puts two major travel days back to back. Nine days is more comfortable. Compare train and flight options for the Hakodate–Tokyo leg.</p>
+      </section>
+
+      <section class="route food-trail" id="food-trail" aria-labelledby="food-title">
+        <header class="route-header"><div><h2 id="food-title">Fukuoka to Tokyo</h2><p class="city-sequence">Fukuoka → Osaka → Tokyo</p></div></header>
+        <p class="route-intro">The straightforward, food-focused choice. Start somewhere new with Fukuoka’s ramen and yatai food stalls, then revisit Osaka and Tokyo along the main rail corridor.</p>
+        <p class="day-trip"><strong>Kyoto is a day trip from Osaka</strong> — keep one Kansai hotel base.</p>
+        <div class="photos">
+          <figure><img src="https://res-4.cloudinary.com/jnto/image/upload/w_800,h_600,c_fill,f_auto,fl_lossy,q_auto/v1516703808/fukuoka/Fukuoka1614_6" alt="Fukuoka yatai food stalls illuminated in the evening" width="800" height="600" loading="lazy"><figcaption><strong>Fukuoka</strong><span>Ramen & food stalls</span></figcaption></figure>
+          <figure><img src="https://res-2.cloudinary.com/jnto/image/upload/w_800,h_600,c_fill,f_auto,fl_lossy,q_auto/v1514378461/osaka/Osaka798_4" alt="Osaka's lively restaurant streets at night" width="800" height="600" loading="lazy"><figcaption><strong>Osaka</strong><span>Our Kansai base</span></figcaption></figure>
+          <figure><img src="https://res-2.cloudinary.com/jnto/image/upload/w_800,h_600,c_fill,f_auto,fl_lossy,q_auto/v1513936386/tokyo/Tokyo2258_24" alt="A warmly illuminated Tokyo food street in the evening" width="800" height="600" loading="lazy"><figcaption><strong>Tokyo</strong><span>Familiar favourites</span></figcaption></figure>
+        </div>
+        <div class="route-details">
+          <div class="base-plan"><h3>7 days · 6 nights</h3><ol class="night-stops"><li><strong>Fukuoka</strong><span>2 nights</span></li><li><strong>Osaka</strong><span>2 nights</span></li><li><strong>Tokyo</strong><span>2 nights</span></li></ol><p>A balanced city trip, with Kyoto from Osaka and an optional Dazaifu outing from Fukuoka.</p></div>
+          <div class="longer-plan"><h3>With 9–10 days</h3><p>Add <strong>Hiroshima for two nights</strong>, including a Miyajima day trip. A tenth day gives Kansai more time.</p><dl class="allocations"><dt>9 days</dt><dd>Fukuoka 2 · Hiroshima 2 · Osaka 2 · Tokyo 2</dd><dt>10 days</dt><dd>Fukuoka 2 · Hiroshima 2 · Osaka 3 · Tokyo 2</dd></dl><p class="numbers-note">Numbers are nights in each place.</p></div>
+        </div>
+        <p class="travel-note"><strong>The trade-off:</strong> mostly cities, with less small-town contrast. The rail route is simple to follow, but the journeys still take a sizeable part of a day.</p>
+      </section>
+    </div>
+
+    <section class="booking wrap" aria-labelledby="booking-title"><h2 id="booking-title">Before we book</h2><p>These are starting-point plans. Confirm flights and train or bus connections before choosing the route. In February, Hokkaido is the strongest snow option; snow in the Alps varies. City photos show evening scenes rather than promise snow or blossoms.</p><p>Winter festival photos illustrate the season, not a confirmed event in our dates. Check the travel year’s event dates before adding a festival.</p><p class="references">Official guides: <a href="https://www.japan.travel/en/au/guide/guide-takayama-shirakawa-go-kanazawa/">The Alps</a> · <a href="https://visit.sapporo.travel/seasons/winter/">Sapporo in winter</a> · <a href="https://www.japan.travel/en/spot/273/">Fukuoka’s food stalls</a></p></section>
   </main>
-  <footer class="site-footer wrap"><a class="brand" href="#"><span class="sun" aria-hidden="true"></span> japan, together</a><p>A few possibilities. A beautiful next chapter.</p><details><summary>Photo credits</summary><p>Mount Fuji by <a href="https://unsplash.com/photos/9Qwbfa_RM94">JJ Ying / Unsplash</a>. Destination photographs displayed from <a href="https://www.japan.travel/">Japan National Tourism Organization</a>. The spring blossom hero is inspirational imagery; blossoms are not promised for a winter trip. Fuji is not a scheduled stop. Route sketches are schematic.</p></details></footer>
-  <div class="toast" id="toast" role="status"></div>
+  <footer class="site-footer wrap"><p>japan, together</p><a href="#top">Back to top ↑</a><p class="credits">Photos: <a href="https://www.japan.travel/">JNTO</a>, <a href="https://visit.sapporo.travel/seasons/winter/">Visit Sapporo</a> and <a href="https://unsplash.com/photos/_UIN-pFfJ7c">Sorasak / Unsplash</a>.</p></footer>
 </body>
 </html>
