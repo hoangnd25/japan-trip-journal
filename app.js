@@ -50,8 +50,9 @@ function toast(message) { const element = document.querySelector('#toast'); elem
 document.querySelector('#share').addEventListener('click', async () => {
   const url = new URL(location.href); url.hash = ''; url.search = ''; url.searchParams.set('route', selectedRoute); url.searchParams.set('days', selectedDays);
   try {
-    if (navigator.share) { await navigator.share({ title: 'Japan, together', text: `${routes[selectedRoute].short} · ${selectedDays} days`, url: url.href }); }
-    else { await navigator.clipboard.writeText(url.href); toast('Trip link copied. Ready to share.'); }
+    if (navigator.clipboard) { await navigator.clipboard.writeText(url.href); toast('Trip link copied. Ready to share.'); }
+    else if (navigator.share) { await navigator.share({ title: 'Japan, together', text: `${routes[selectedRoute].short} · ${selectedDays} days`, url: url.href }); }
+    else { window.prompt('Copy this trip link:', url.href); }
   } catch (error) { if (error.name !== 'AbortError') { window.prompt('Copy this trip link:', url.href); } }
 });
 const params = new URLSearchParams(location.search);
