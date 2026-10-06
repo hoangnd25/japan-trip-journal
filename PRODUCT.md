@@ -26,4 +26,6 @@ The user selected the supplied Japanese travel posters as the visual reference: 
 
 ## Image truth
 
+Choose recognisable places with a clear photographic subject: Takayama's wooden old town, Sapporo's Clock Tower and Fukuoka's riverside yatai. Check both the small shortlist crop and destination panel on mobile. Seasonal accuracy and visual quality both matter; prefer official reusable photographs over generic destination imagery.
+
 Real destination and activity photographs come from JNTO, Visit Sapporo, Hida Takayama, Visit Fukuoka, Marine World and Unsplash. Supplied AI poster PNGs provide food illustrations and plum artwork; retain full originals in `assets/inspiration/` and credit crops as illustrations. Neither reference artwork nor seasonal photographs establish actual conditions on eventual travel dates. Fuji is cover inspiration rather than an itinerary stop. Maps use simplified Natural Earth geography with separate regional extents. Keep them small on phones; they are visual aids, not the main content.

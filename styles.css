@@ -62,6 +62,9 @@ img { display: block; width: 100%; object-fit: cover; }
 .index-option a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-top: 3px; color: var(--accent); }
 .index-option a .line-icon { width: 19px; height: 19px; }
 .index-option > img { height: 154px; border-radius: 6px; }
+.index-option > .photo-takayama, .destination > .photo-takayama { object-position: 42% 65%; }
+.index-option > .photo-sapporo, .destination > .photo-sapporo { object-position: 47% 40%; }
+.index-option > .photo-fukuoka, .destination > .photo-fukuoka { object-position: 60% 50%; }
 
 .route { position: relative; padding-top: 66px; }
 .route-heading { position: relative; text-align: center; padding-bottom: 30px; background: url('assets/waves.svg') left bottom/290px 190px no-repeat; }
