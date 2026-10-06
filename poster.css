@@ -49,3 +49,5 @@ body{background:linear-gradient(180deg,#f7eff0 0,#fcfaf7 850px);background-attac
 @media(min-width:761px) and (max-width:1100px){.wrap{width:calc(100% - 64px)}.intro>.eyebrow{grid-column:1/-1}.hero h1{font-size:98px}.recommendation-section{grid-template-columns:65px 1fr}.margin-note{display:none}}
 @media(max-width:370px){.hero h1{font-size:64px}.hero-content>.hero-subtitle{font-size:7px!important;letter-spacing:2px}.route-cities{font-size:20px}.card-body{padding:20px 15px;grid-template-columns:1fr 80px}.route-gallery img{height:83px}.route-map{width:90px}.card-highlights{font-size:7px}}
 @media print{.route-map,.route-gallery,.hero-icons{display:none}.planner-section{background:white}}
+/* Keep all three options visible together on a phone. */
+@media(max-width:760px){.comparison-scroll{margin-right:0;padding-right:0}table{min-width:0;table-layout:fixed}th,td{padding:13px 6px;font-size:9px;line-height:1.65;overflow-wrap:anywhere}thead th{font-size:9px}thead th span{display:block;margin:0 0 3px;font-size:14px}}
