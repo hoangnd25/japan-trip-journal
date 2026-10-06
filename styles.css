@@ -229,7 +229,7 @@ img { display: block; width: 100%; object-fit: cover; }
   .index-option { grid-template-columns: 37px 1fr; gap: 12px; padding: 18px 16px; align-items: start; }
   .option-digit { width: 36px; height: 36px; font-size: 26px; }
   .index-option h3 { font-size: 25px; line-height: 1.2; margin: 2px 0 10px; }
-  .index-option > img { grid-column: 1/-1; width: 100%; height: 135px; object-position: center 45%; }
+  .index-option > img { grid-column: 1/-1; width: 100%; height: auto; aspect-ratio: 3 / 2; object-position: center; }
   .index-option a { margin-top: 8px; }
   .route { padding-top: 46px; }
   .route-heading { padding-bottom: 23px; background-size: 170px 140px; background-position: -40px 40px; }
