@@ -10,6 +10,10 @@ The alternatives are Alps & classic cities, Hokkaido & Tokyo, and Fukuoka to Tok
 
 This static HTML/CSS page has no build step, scripts, motion, sharing controls or buttons. Explicit links navigate within the page or open source material. Six native disclosure rows independently reveal extra activities or food ideas, with keyboard support and no scripts. Destination grids use two columns on phones and four on wider screens. Activity and food highlights use four columns on desktop and two on tablets and phones. Additional suggestions use compact text rows without images. Main reading text and descriptive captions are 16px; small header and credit text are smaller.
 
+## Route trade-offs
+
+Each route also has visible pros and cons before the activity highlights, covering experiences, activities for kids, food and practical travel effort. Comparisons use the seven-day itinerary: four overnight bases and three hotel changes for the Alps route, versus three bases and two hotel changes for the other routes. Hokkaido's consecutive long travel days are called out separately. This section was checked at 320, 390, 768 and 1440px for readable text and overflow.
+
 ## Route maps
 
 Each itinerary includes its own compact map with only that route's stops. Regional extents vary, so the three maps should not be read as equal-scale distance comparisons. Its simplified coastline uses Japan's four main islands from [Natural Earth 1:50m](https://www.naturalearthdata.com/), plotted with an equirectangular projection and approximate `cos(38°)` horizontal scaling. Lines connect stops schematically; they are not railway tracks or evidence of direct services. Otaru is a day trip from Sapporo; Kyoto is a day trip from Osaka on the Fukuoka route. Longer-trip additions are omitted. Maps sit beside the itinerary on desktop and above it on phones. Phone map widths are capped at 250px (220px for Hokkaido), with labels above 16px.

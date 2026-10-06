@@ -149,8 +149,17 @@ img { display: block; width: 100%; object-fit: cover; }
 .stop-line b, .stop-line span { display: block; font-size: 16px; }
 .stop-line span { color: var(--muted); }
 .long-allocation { margin-top: 10px; font-size: 16px; color: var(--muted); }
-.trade-off { margin-top: 22px; padding: 15px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--muted); }
-.trade-off strong { color: var(--accent); }
+.route-tradeoffs { margin-bottom: 30px; padding-block: 6px 28px; border-bottom: 1px solid var(--line); }
+.tradeoffs-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px 24px; margin-bottom: 22px; }
+.tradeoffs-heading h3 { color: var(--accent); }
+.tradeoffs-heading p { color: var(--muted); }
+.tradeoffs-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
+.tradeoffs-columns > div + div { border-left: 1px solid var(--line); padding-left: 40px; }
+.tradeoffs-columns h4 { font-size: 23px; }
+.tradeoffs-columns ul { list-style: none; padding: 0; margin: 16px 0 0; }
+.tradeoffs-columns li + li { margin-top: 18px; }
+.tradeoffs-columns strong { display: block; line-height: 1.5; }
+.tradeoffs-columns p { margin-top: 4px; color: var(--muted); }
 
 .closing { display: flex; align-items: center; gap: 28px; padding-block: 55px 38px; }
 .closing-seal { display: grid; place-items: center; width: 82px; height: 82px; flex: 0 0 auto; border-radius: 50%; background: var(--red); color: white; }
@@ -254,7 +263,12 @@ img { display: block; width: 100%; object-fit: cover; }
   .plan-columns h4 { font-size: 23px; margin-bottom: 14px; }
   .stop-line { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px; }
   .stop-line li { padding-top: 10px; }
-  .trade-off { margin-top: 20px; padding-block: 14px; }
+  .route-tradeoffs { margin-bottom: 24px; padding-bottom: 24px; }
+  .tradeoffs-heading { display: block; margin-bottom: 20px; }
+  .tradeoffs-heading h3 { font-size: 25px; }
+  .tradeoffs-heading p { margin-top: 8px; }
+  .tradeoffs-columns { grid-template-columns: 1fr; gap: 24px; }
+  .tradeoffs-columns > div + div { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 22px; }
   .closing { align-items: start; gap: 15px; padding-block: 36px 27px; }
   .closing-seal { width: 45px; height: 45px; }
   .closing-seal .line-icon { width: 29px; height: 29px; }
